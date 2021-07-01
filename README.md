@@ -31,6 +31,13 @@ source ~/.bashrc
 config checkout
 ```
 
+### Ignore Untracked Files
+
+This will not show untracked files when using `config status`
+```
+config config --local status.showUntrackedFiles no
+```
+
 # Working with this Repository
 
 When working with version control of dotfiles, `config` is now an alias for `git` in those cases.
